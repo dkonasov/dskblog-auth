@@ -1,0 +1,19 @@
+{
+  "name": "dskblog-auth",
+  "version": "1.0.0",
+  "description": "Auth service for dskblog engine",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Konasov Dmitrii",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mongoose": "^5.5.43",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "mongoose": "^5.8.9"
+  }
+}
